@@ -1,0 +1,158 @@
+body {
+    background-color: #FFFFDC;
+}
+.font1 {
+    color: #FFFFDC;
+    font-family: "Instrument Serif";
+    font-size: 55px;
+    letter-spacing: 1px;
+}
+.font2 {
+    color: #FFFFDC;
+    font-family: "Instrument Serif";
+    font-size: 42px;
+    letter-spacing: 0px;
+}
+.font2-subheader {
+    color: #FFFFDC;
+    font-family: "Instrument Serif";
+    font-style: italic;
+    font-size: 42px;
+    letter-spacing: 0px;
+}
+.banner {
+    display: flex;
+    margin-top: 40px;
+}
+.rectangle-banner {
+    width: 383px;
+    height: 65px;
+    background-color: #FEA0DB;
+    border-radius: 3px;
+    margin: 80px;
+}
+.circle-big {
+    width: 191px;
+    height: 191px;
+    border-radius: 100%;
+    background-color: #DD0016;
+    margin-top: 10px;
+    margin-left: -420px;
+}
+.circle-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #FFED81;
+    margin-left: -180px;
+}
+.name-tag {
+    color: #FFFFDC;
+    font-family: "Instrument Serif";
+    font-style: italic;
+    font-size: 42px;
+    letter-spacing: 1px;
+    margin-top: 90px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+}
+.rectangle-menu {
+    height: 600px;
+    width: 380px;
+    border-radius: 3px;
+    background-color: #FFA0DB;
+    position: absolute;
+    right: 100px;
+}
+.circle-menu {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #DD0016;
+}
+.cm1 {
+    top: 260px;
+    left: -18px;
+}
+.cm2 {
+    top: 340px;
+    left: -18px;
+}
+.cm3 {
+    top: 420px;
+    left: -18px;
+}
+.hi {
+    position: relative;
+    z-index: 1;
+    left: 13px;
+    top: -105px;
+}
+.welcome {
+    position: relative;
+    z-index: 1;
+    left: 13px;
+    top: -105px;
+}
+.about {
+    position: relative;
+    top: -48px;
+    left: 25px;
+    text-decoration: none;
+}
+.github {
+    position: relative;
+    top: 18px;
+    left: 25px;
+    text-decoration: none;
+}
+.gallery {
+    position: relative;
+    top: 83px;
+    left: 25px;
+    text-decoration: none;
+}
+.square-menu {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #FFED81;
+    position: relative;
+    top: -486px;
+    left: 360px;
+}
+/*
+<div class="rectangle-menu">
+            <div class="circle-menu cm1"></div>
+            <div class="circle-menu cm2"></div>
+            <div class="circle-menu cm3"></div>
+            <div class="hi font1">Hi, I'm Watha.</div>
+            <div class="welcome font2-subheader">Welcome to my portfolio website.</div>
+            <a href="#"  class="about font2">About me</div>
+            <a href="https://github.com/Wathalicious" class="github font2">Github</div>
+            <a href="#" class="gallery font2">Gallery</div>
+            <div class="square-menu"></div>
+        </div>
+
+
+        <div class="rectangle-menu">
+            <div class="circle-menu cm1"></div>
+            <div class="circle-menu cm2"></div>
+            <div class="circle-menu cm3"></div>
+            <div class="hi font1">Hi, I'm Watha.</div>
+            <div class="welcome font2-subheader">Welcome to my portfolio website.</div>
+            <div class="about font2">About me</div>
+            <div class="github font2">Github</div>
+            <div class="gallery font2">Gallery</div>
+            <div class="square-menu"></div>
+        </div>    
+*/
