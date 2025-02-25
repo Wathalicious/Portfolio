@@ -31,7 +31,7 @@ body {
 .banner {
     display: flex;
     margin-top: 40px;
-    animation: slideInLeft 3s ease-in-out 0.25s 1 normal both;
+    animation: slideInLeft 1s ease-in-out;
 }
 .rectangle-banner {
     width: 383px;
@@ -78,7 +78,7 @@ body {
     justify-content: flex-end;
     position: relative;
     width: 100%;
-    animation: slideInRight 3s ease-in-out 0.25s 1 normal both;
+    animation: slideInRight 1s ease-in-out;
 }
 .rectangle-menu {
     height: 600px;
@@ -121,17 +121,17 @@ body {
     left: 13px;
     top: -105px;
 }
+.about>div:hover,
+.github>div:hover,
+.gallery>div:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
 .about {
     position: relative;
     top: 5px;
     left: 27px;
     text-decoration: none;
-}
-.ab:hover,
-.gh:hover,
-.gal:hover {
-    transform: scale(1.03);
-    transition: 0.5s;
 }
 .github {
     position: relative;
@@ -151,6 +151,15 @@ body {
     border-radius: 3px;
     background-color: #FFED81;
     position: relative;
-    top: -436px;
+    top: -873px;
     left: 360px;
+}
+.menu-items {
+    height: 100%;
+}
+.menu-items:hover > a {
+    filter: blur(3px);
+}
+.menu-items > a:hover {
+    filter: none;
 }
