@@ -20,9 +20,18 @@ body {
     font-size: 42px;
     letter-spacing: 0px;
 }
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-600px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
 .banner {
     display: flex;
     margin-top: 40px;
+    animation: slideInLeft 3s ease-in-out 0.25s 1 normal both;
 }
 .rectangle-banner {
     width: 383px;
@@ -56,11 +65,20 @@ body {
     margin-left: 25px;
     text-decoration: none;
 }
+@keyframes slideInRight {
+    from {
+        transform: translateX(600px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
 .menu {
     display: flex;
     justify-content: flex-end;
     position: relative;
     width: 100%;
+    animation: slideInRight 3s ease-in-out 0.25s 1 normal both;
 }
 .rectangle-menu {
     height: 600px;
@@ -108,6 +126,12 @@ body {
     top: 5px;
     left: 27px;
     text-decoration: none;
+}
+.ab:hover,
+.gh:hover,
+.gal:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
 }
 .github {
     position: relative;
