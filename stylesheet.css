@@ -105,20 +105,20 @@ body {
 }
 .about {
     position: relative;
-    top: -48px;
-    left: 25px;
+    top: 5px;
+    left: 27px;
     text-decoration: none;
 }
 .github {
     position: relative;
-    top: 18px;
-    left: 25px;
+    top: 70px;
+    left: 27px;
     text-decoration: none;
 }
 .gallery {
     position: relative;
-    top: 83px;
-    left: 25px;
+    top: 135px;
+    left: 27px;
     text-decoration: none;
 }
 .square-menu {
@@ -127,32 +127,6 @@ body {
     border-radius: 3px;
     background-color: #FFED81;
     position: relative;
-    top: -486px;
-    left: 360px;
+    top: -428px;
+    left: 356px;
 }
-/*
-<div class="rectangle-menu">
-            <div class="circle-menu cm1"></div>
-            <div class="circle-menu cm2"></div>
-            <div class="circle-menu cm3"></div>
-            <div class="hi font1">Hi, I'm Watha.</div>
-            <div class="welcome font2-subheader">Welcome to my portfolio website.</div>
-            <a href="#"  class="about font2">About me</div>
-            <a href="https://github.com/Wathalicious" class="github font2">Github</div>
-            <a href="#" class="gallery font2">Gallery</div>
-            <div class="square-menu"></div>
-        </div>
-
-
-        <div class="rectangle-menu">
-            <div class="circle-menu cm1"></div>
-            <div class="circle-menu cm2"></div>
-            <div class="circle-menu cm3"></div>
-            <div class="hi font1">Hi, I'm Watha.</div>
-            <div class="welcome font2-subheader">Welcome to my portfolio website.</div>
-            <div class="about font2">About me</div>
-            <div class="github font2">Github</div>
-            <div class="gallery font2">Gallery</div>
-            <div class="square-menu"></div>
-        </div>    
-*/
