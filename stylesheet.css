@@ -31,7 +31,7 @@ body {
 .banner {
     display: flex;
     margin-top: 40px;
-    animation: slideInLeft 1s ease-in-out;
+    animation: slideInLeft 1.3s ease-in-out;
 }
 .rectangle-banner {
     width: 383px;
@@ -78,7 +78,7 @@ body {
     justify-content: flex-end;
     position: relative;
     width: 100%;
-    animation: slideInRight 1s ease-in-out;
+    animation: slideInRight 1.3s ease-in-out;
 }
 .rectangle-menu {
     height: 600px;
@@ -105,6 +105,13 @@ body {
     top: 340px;
     left: -18px;
 }
+/* TODO bring logo to front/on top of circle */
+.fa brands.fa-github {
+    position: relative;
+    color: #ffffdc;
+    top: 340px;
+    left: -18px;
+}
 .cm3 {
     top: 420px;
     left: -18px;
@@ -123,7 +130,8 @@ body {
 }
 .about>div:hover,
 .github>div:hover,
-.ravelry>div:hover {
+.ravelry>div:hover,
+.name-tag>div:hover {
     transform: scale(1.03);
     transition: 0.5s;
 }

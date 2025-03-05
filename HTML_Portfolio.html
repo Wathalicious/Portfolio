@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Watha's Portfolio Website</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Watha's Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- TODO if bootstrap applied, "text-decoration: none;" isnt applied anymore, everyrthing else is ok
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+    />
+    -->
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
     <div class="banner">
-        <div class="rectangle-banner"></div>
-        <div class="circle-big"></div>
-        <div class="circle-small"></div>
-        <a href="#" class="name-tag">
-            <div>Watha</div>
-        </a>
+      <div class="rectangle-banner"></div>
+      <div class="circle-big"></div>
+      <div class="circle-small"></div>
+      <a href="/HTML_Portfolio.html" class="name-tag">
+        <div class="watha">Watha</div>
+      </a>
     </div>
     <div class="menu">
-        <div class="rectangle-menu">
-            <div class="circle-menu cm1"></div>
-            <div class="circle-menu cm2"></div>
-            <div class="circle-menu cm3"></div>
-            <div class="hi font1">Hi, I'm Katharina.</div>
-            <div class="welcome font2-subheader">Welcome to my portfolio</div>
-            <div class="menu-items">
-                <a href="#" class="about font2">
-                    <div>About me</div>
-                </a>
-                <a href="https://github.com/Wathalicious" class="github font2">
-                    <div>Github</div>
-                </a>
-                <a href="https://www.ravelry.com/people/Purlchaos" class="ravelry font2">
-                    <div>Ravelry</div>
-                </a>
-            </div>
-            <div class="square-menu"></div>
-        </div>          
+      <div class="rectangle-menu">
+        <div class="circle-menu cm1"></div>
+        <!-- TODO github logo inside circle, correct position in code? -->
+        <div class="circle-menu cm2">
+          <i class="fa-brands fa-github" style="color: #ffffdc"></i>
+        </div>
+        <div class="circle-menu cm3"></div>
+        <div class="hi font1">Hi, I'm Katharina.</div>
+        <div class="welcome font2-subheader">Welcome to my portfolio</div>
+        <div class="menu-items">
+          <a href="/about.html" class="about font2">
+            <div>About me</div>
+          </a>
+          <a href="https://github.com/Wathalicious" class="github font2">
+            <div>Github</div>
+          </a>
+          <a
+            href="https://www.ravelry.com/people/Purlchaos"
+            class="ravelry font2"
+          >
+            <div>Ravelry</div>
+          </a>
+        </div>
+        <div class="square-menu"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
