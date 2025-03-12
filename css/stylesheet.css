@@ -171,3 +171,11 @@ body {
 .menu-items > a:hover {
     filter: none;
 }
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
